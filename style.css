@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('blue.jpg') no-repeat center center fixed; /* Replace with a high-quality image */
+    background-size: cover;
+    color: #F0F4F8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .menu {
+    background: rgba(10, 31, 61, 0.8); /* Semi-transparent dark overlay */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .category {
+    margin-bottom: 20px;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Category Styles */
+  .category h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  .category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(240, 244, 248, 0.1);
+  }
+  
+  .category li:last-child {
+    border-bottom: none;
+  }
+  
+  .item {
+    color: #F0F4F8;
+  }
+  
+  .price {
+    color: #FFD700;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  .instagram-button {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(45deg, #FF512F, #DD2476, #753A88);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .instagram-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .instagram-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
