@@ -125,7 +125,14 @@ body {
   color: #FFD700;
   margin-bottom: 10px;
 }
-
+h1 {
+  color: rgb(216, 156, 4);
+}
+.styled-text {
+  font-family: 'courier', sans-serif; /* Ou une autre police si tu préfères */
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;}
 .category ul {
   list-style-type: none;
   padding: 0;
