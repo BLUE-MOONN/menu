@@ -8,7 +8,6 @@ body {
   padding: 0;
   display: block; /* Permet le scroll */
   min-height: 100vh;
-  overflow-x: hidden;
 }
 
 /* Menu Container */
