@@ -21,7 +21,7 @@ body {
   text-align: center;
   animation: fadeIn 1.5s ease-in-out;
   margin: auto;
-  margin-top: 120px; /* Ajout d’un espace pour ne pas cacher le menu */
+  /*margin-top: 120px;  Ajout d’un espace pour ne pas cacher le menu */
 }
 
 /* Header */
