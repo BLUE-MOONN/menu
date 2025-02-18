@@ -125,8 +125,23 @@ body {
   color: #FFD700;
   margin-bottom: 10px;
 }
+@keyframes lightning {
+  0%, 60% {
+    color: #ffffff; 
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+  50% {
+    color: #ffdb3b; 
+    text-shadow: 0 0 10px #ffdb3b,0 0 20px #ffdb3b;
+  }
+}
+
 h1 {
-  color: rgb(216, 156, 4);
+  font-size: 3rem; 
+  font-family: Helvetica;
+  color: #ffffff; 
+  text-align: center;
+  animation: lightning 6s infinite; 
 }
 .styled-text {
   font-family: 'courier', sans-serif; /* Ou une autre police si tu préfères */
